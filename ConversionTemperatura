@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+	var TempMtyF = 55.4;
+	TempMtyC = FarToC(TempMtyF);
+	console.log(TempMtyC);
+}
+
+function FarToC(TempF){
+	var TempC;
+	TempC = 5/9*(TempF-32);
+  return TempC;
+}
