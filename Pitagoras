@@ -1,0 +1,20 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+	var A = 12
+	var B = 12
+	var HipoC = Calcular(A,B);
+	console.log(HipoC);
+}
+
+function Calcular(A,B){
+	
+	var C;
+	C = sqrt((A*A)+(B*B));
+	
+	
+	return C;
+}
